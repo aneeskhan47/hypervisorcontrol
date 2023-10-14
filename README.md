@@ -4,7 +4,7 @@ A tool to quickly disable or enable the hypervisor, created by aneeskhan47.
 
 ![image](https://github.com/aneeskhan47/hypervisorcontrol/assets/30714223/1412d2b8-4482-4c71-b0a9-71e0501e664a)
 
-# Why I Created This Tool
+## Why I Created This Tool
 
 I have an i7-7th gen cpu which does not have a TPM 2.0 module and I also use WSL2 for my work. So I needed a way to quickly toggle the hypervisor on or off. I couldn't find any tool that did this, so I created one myself.
 
@@ -15,7 +15,9 @@ I developed this tool to address a specific challenge I faced. While playing the
 
 This tool just helps you to quickly toggle the hypervisor on or off. Not just for Valorant, but for any other application or game that requires either the TPM 2.0 module or hypervisor to be disabled.
 
-# How to Use
+**Intended to use with Windows 10 and 11**.
+
+## How to Use
 
 1. Download the `HypervisorControl.exe` from the releases.
 2. Open the tool. Based on the current status of the hypervisor:

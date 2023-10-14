@@ -6,9 +6,12 @@ A tool to quickly disable or enable the hypervisor, created by aneeskhan47.
 
 # Why I Created This Tool
 
-I have an i7 7th gen cpu which does not have a TPM 2.0 module and I also use WSL2 for my work. So I needed a way to quickly toggle the hypervisor on or off. I couldn't find any tool that did this, so I created one myself.
+I have an i7-7th gen cpu which does not have a TPM 2.0 module and I also use WSL2 for my work. So I needed a way to quickly toggle the hypervisor on or off. I couldn't find any tool that did this, so I created one myself.
 
 I developed this tool to address a specific challenge I faced. While playing the game Valorant, its Vanguard anti-cheat system requires that either the TPM 2.0 module be present or that the hypervisor be disabled. However, for my work, I frequently use WSL2, which requires the hypervisor to be enabled. This tool allows users to seamlessly switch between having the hypervisor enabled or disabled, followed by a system restart, ensuring compatibility both for valorant and work purposes.
+
+> [!IMPORTANT]  
+> You do not need this tool if you have a TPM 2.0 module. You can just enable the hypervisor and Valorant will work fine. This tool is only for those who do not have a TPM 2.0 module and need to quickly toggle the hypervisor on or off. but still, if you just want to quickly toggle the hypervisor on or off you can use this tool.
 
 This tool just helps you to quickly toggle the hypervisor on or off. Not just for Valorant, but for any other application or game that requires either the TPM 2.0 module or hypervisor to be disabled.
 

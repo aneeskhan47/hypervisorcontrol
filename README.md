@@ -19,8 +19,8 @@ This tool just helps you to quickly toggle the hypervisor on or off. Not just fo
 
 ## How to Use
 
-1. Download the `HypervisorControl.exe` from the releases.
-2. Open the tool. Based on the current status of the hypervisor:
+1. Download the `HypervisorControl.ps1` file.
+2. Open the tool as administrator. Based on the current status of the hypervisor:
    1. If the hypervisor is enabled, the tool will prompt you with an option to disable it. Upon confirmation, the tool will disable the hypervisor and ask you whether you want to restart the system.
    2. If the hypervisor is disabled, the tool will prompt you with an option to enable it. Upon confirmation, the tool will enable the hypervisor and ask you whether you want to restart the system.
 

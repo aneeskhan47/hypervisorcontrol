@@ -39,8 +39,8 @@ function Get-ValidChoice {
 }
 
 # Check the current state of Hyper-V
-$hyperv = Get-WindowsOptionalFeature -Online -FeatureName Hyper-V
-if ($hyperv.State -eq "Enabled") {
+$hyperv = bcdedit /enum | findstr -i hypervisorlaunchtype
+if ($hyperv -match "hypervisorlaunchtype\s+auto") {
   Write-Host "Hyper-V is enabled. `n" -ForegroundColor Green
   $choice = Get-ValidChoice "Would you like to disable Hypervisor? (Y/N)" @( "Y", "N" )
   if ($choice -eq "Y") {

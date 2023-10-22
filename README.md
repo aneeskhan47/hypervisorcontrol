@@ -1,6 +1,6 @@
-## ⚠ Disclaimer
+## 📢 Important Information
 
-**HypervisorControl** is a tool created by **aneeskhan47** to facilitate the quick toggling of the hypervisor on or off in Windows 10 and 11. It is intended to help users manage the hypervisor for specific use cases and applications, such as gaming and working with WSL2 at the same time.
+**HypervisorControl** is a PowerShell script created by **aneeskhan47** to facilitate the quick toggling of the hypervisor on or off in Windows 10 and 11. It is intended to help users manage the hypervisor for specific use cases and applications, such as gaming (e.g., Valorant) and working with WSL2 at the same time.
 
 **aneeskhan47** is not responsible for any damage, issues, or unexpected consequences that may arise from the use of this tool. HypervisorControl is designed to perform a specific function: toggling the hypervisor state. It does not engage in any suspicious or harmful activities.
 

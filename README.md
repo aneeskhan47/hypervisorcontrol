@@ -1,3 +1,15 @@
+## ⚠ Disclaimer
+
+**HypervisorControl** is a tool created by **aneeskhan47** to facilitate the quick toggling of the hypervisor on or off in Windows 10 and 11. It is intended to help users manage the hypervisor for specific use cases and applications, such as gaming and working with WSL2 at the same time.
+
+**aneeskhan47** is not responsible for any damage, issues, or unexpected consequences that may arise from the use of this tool. HypervisorControl is designed to perform a specific function: toggling the hypervisor state. It does not engage in any suspicious or harmful activities.
+
+Users of this tool are solely responsible for their system's configuration and any potential risks associated with enabling or disabling the hypervisor. Please use HypervisorControl with caution and make sure you understand its impact on your system.
+
+If you encounter any problems or have questions regarding HypervisorControl, feel free to open an issue on the GitHub repository for assistance. However, please note that the tool is provided as-is, without any warranties or guarantees of any kind.
+
+By using HypervisorControl, you acknowledge and accept these terms and conditions.
+
 # HypervisorControl
 
 A tool to quickly disable or enable the hypervisor, created by aneeskhan47.
